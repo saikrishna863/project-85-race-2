@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background-image: url("car racing.gif");
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
+#myCanvas
+{
+    margin-top: 30px;
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
+}
+
+h1,h4
+{
+    color:white;
+    
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Cars Racing  game</title>
+</head>
+<body onload="add();">
+
+<center>
+<h1>Car Racing Game</h1>
+<span>
+<h1>game play : here are there two cars  we will play race for the white car you need
+    to do is first when ou click on your key board 'A' it will move up and 
+    when you click on 'b' down 'c' mean left 'd' mean right and for yellow car when click up arrow it move up
+    down is for down left is for left and right is for right is is the racing game.<span id="game_Status"></span></h1>
+</span>
+    <canvas id="myCanvas" width="800" height="600">
+    </canvas>
+<h4>
+    <b class="text-danger">NOTE : </b> IF Cars IS NOT VISIABLE PRESS ANY ARROW KEY
+</h4>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
